@@ -35,7 +35,7 @@ In the frontend, I do my sanitization in `register.component.ts`
 - In `onFormSubmit`, I check that these fields are properly filled. If not, I display an error popup.
 
 In the backend, I do my sanitization in `controller.go`
-- I created 3 functions to validate name, email, and hex code. These are `ValidateName`, `ValidateEmail`, and `ValidateHexCode`.
+- I created 3 functions to validate name, email, and hex code. These are `ValidateName`, `ValidateEmail`, and `ValidateHexColor`.
 - When I receive a request, I validate the data. If any validations fail, I return StatusBadRequest.
 
 ## Sources
